@@ -6,7 +6,7 @@
 
 The INTERACTION dataset provides 4 different kinds of interactive driving scenarios: roundabout, un-signalized intersection, signalized intersection, merging and lane changing. In total, we have collected data from 11 locations using drones or fixed cameras. 12 folders are included in the released "recorded_trackfiles" folder. Folders with \"DR\_\" are track files recorded via drones and folders with \"TC\_\" are trackfiles recorded via fixed cameras. The summary of the data is listed in the following table.
 
-![image-20190920102009772](/Users/litingsun/Library/Application Support/typora-user-images/image-20190920102009772.png)
+![image-20190920102009772](./summary.png)
 
 
 
