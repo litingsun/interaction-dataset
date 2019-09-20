@@ -1,16 +1,23 @@
 # INTERACTION Dataset Format
 
-The INTERACTION dataset provides 5 different kinds of scenarios: roundabout, un-signalized intersection, signalized intersection, ramp merging, and highway. In total, we have collected data from 12 locations using both drones and fixed camera. The statistics of the data are listed in the following table.
+[TOC]
+
+## Summary of the dataset
+
+The INTERACTION dataset provides 4 different kinds of interactive driving scenarios: roundabout, un-signalized intersection, signalized intersection, merging and lane changing. In total, we have collected data from 11 locations using drones or fixed cameras. 12 folders are included in the released "recorded_trackfiles" folder. Folders with \"DR\_\" are track files recorded via drones and folders with \"TC\_\" are trackfiles recorded via fixed cameras. The summary of the data is listed in the following table.
+
+![image-20190920102009772](/Users/litingsun/Library/Application Support/typora-user-images/image-20190920102009772.png)
 
 
 
 ## Included Materials
-For the 12 recording locations, we include three files for each location. Details for each file are provided in the  following sections.
+For the 11 recording locations, we include three files for each location:
 
 * Image of the recording location (xxx.jpg)
 * High definition (HD) map (xxx.osm)
 * Recorded trackfiles (vehicle_tracks_xxx.csv)
-* Visualization tools in both python
+
+We also have provided a visualization tool (in python) for the users to visualize the HD map and the tracks. You can find more information in the part of the "visualization tools".
 
 ## Recorded Trackfiles (vehicle/person_tracks_xxx.csv)
 
@@ -51,5 +58,5 @@ This file contains all time dependent values for each track. Information such as
 
 ## Visualization Tools
 
-We also have provided tools to visualize the tracks with the HD maps. The usage of the tools can be found via https://github.com/interaction-dataset/interaction-dataset or in the Visualization Tool Usage.md file.
+We also have provided tools to visualize the tracks with the HD maps. The usage of the tools can be found via https://github.com/interaction-dataset/interaction-dataset/blob/master/Visualization%20Tool%20Usage.md or in the Visualization Tool Usage.md file.
 
