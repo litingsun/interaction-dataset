@@ -58,5 +58,5 @@ This file contains all time dependent values for each track. Information such as
 
 ## Visualization Tools
 
-We also have provided tools to visualize the tracks with the HD maps. The usage of the tools can be found via https://github.com/interaction-dataset/interaction-dataset/blob/master/Visualization%20Tool%20Usage.md or in the Visualization Tool Usage.md file.
+We also have provided tools to visualize the tracks with the HD maps. The usage of the tools can be found in the [Visualization Tool Usage.md](https://github.com/interaction-dataset/interaction-dataset/blob/master/Visualization%20Tool%20Usage.md) file.
 
