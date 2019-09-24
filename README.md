@@ -2,7 +2,7 @@
 
 [TOC]
 
-## Summary of the dataset
+## Summary of the Dataset
 
 The INTERACTION dataset provides 4 different kinds of interactive driving scenarios: roundabout, un-signalized intersection, signalized intersection, merging and lane changing. In total, we have collected data from 11 locations using drones or fixed cameras. 12 folders are included in the released "recorded_trackfiles" folder. Folders with \"DR\_\" are track files recorded via drones and folders with \"TC\_\" are trackfiles recorded via fixed cameras. The summary of the data is listed in the following table.
 
@@ -27,7 +27,7 @@ This file contains all time dependent values for each track. Information such as
 
 **track_id**: column 1. For each vehicle/person_tracks_xxx.csv file, the track_id starts from 1, and represent the ID of the agent.
 
-**frame_id**: column 2. For each agent (per track_id), frame_id starts from 0, and represents the frames the agent appear in the video.
+**frame_id**: column 2. For each agent (per track_id), frame_id starts from 0, and represents the frames the agent appears in the video.
 
 **timestamp_ms**: column 3. For each agent (per track_id), timestamp_ms from 0ms, and represents the time the agent appear in the video. The unit is ms.
 
